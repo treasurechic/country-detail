@@ -1,7 +1,7 @@
 {
   "name": "dee-country-currency",
   "version": "1.0.0",
-  "description": "Return currency icons and currency text related to the country",
+  "description": "This package takes in a country name and returns currency icons and details related to it",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
