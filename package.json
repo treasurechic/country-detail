@@ -1,0 +1,22 @@
+{
+  "name": "dee-country-currency",
+  "version": "1.0.0",
+  "description": "Return currency icons and currency text related to the country",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/treasurechic/dee-country-currency.git"
+  },
+  "keywords": [
+    "country-currency"
+  ],
+  "author": "TreasureChic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/treasurechic/dee-country-currency/issues"
+  },
+  "homepage": "https://github.com/treasurechic/dee-country-currency#readme"
+}
