@@ -1,10 +1,13 @@
 {
-  "name": "dee-country-currency",
+  "name": "@dee/country-currency",
   "version": "1.0.0",
   "description": "This package takes in a country name and returns currency icons and details related to it",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "repository": {
     "type": "git",
