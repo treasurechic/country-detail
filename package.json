@@ -1,13 +1,14 @@
 {
-  "name": "@dee/country-currency",
+  "name": "@treasurechic/country-currency",
   "version": "1.0.0",
-  "description": "This package takes in a country name and returns currency icons and details related to it",
+  "description": "This package takes in a country name or ISO3 and returns currency symbols and other details related to the country",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
   },
   "repository": {
     "type": "git",
