@@ -1,2 +1,2 @@
 # dee-country-currency
-This package takes in a country name and returns currency icons and details related to it.
+This package takes in a country name or ISO3 and returns currency symbols and other details related to the country.
