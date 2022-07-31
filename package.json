@@ -1,7 +1,7 @@
 {
-  "name": "@treasurechic/country-currency",
+  "name": "@treasurechic/country-detail",
   "version": "1.0.0",
-  "description": "This package takes in a country name or ISO3 and returns currency symbols and other details related to the country",
+  "description": "This package works by receiving either the country name or ISO2 or ISO3 to return the country details, including currency symbol and flag",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,15 +12,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/treasurechic/dee-country-currency.git"
+    "url": "git+https://github.com/treasurechic/country-detail.git"
   },
   "keywords": [
-    "country-currency"
+    "country-detail"
   ],
   "author": "TreasureChic",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/treasurechic/dee-country-currency/issues"
+    "url": "https://github.com/treasurechic/country-detail/issues"
   },
-  "homepage": "https://github.com/treasurechic/dee-country-currency#readme"
+  "homepage": "https://github.com/treasurechic/country-detail#readme"
 }

@@ -1,2 +1,2 @@
-# dee-country-currency
-This package takes in a country name or ISO3 and returns currency symbols and other details related to the country.
+# @treasurechic/country-detail
+This package works by receiving either the country name or ISO2 or ISO3 to return the country details, including currency symbol and flag.
