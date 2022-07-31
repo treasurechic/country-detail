@@ -10,8 +10,8 @@ const getCountryDetail = (value) => {
   );
   return {
     ...detail,
-    flag: `${cdnUrl}${detail.iso2}.svg`
-  }
+    flag: `${cdnUrl}${detail.iso2.toLowerCase()}.svg`,
+  };
 };
 
 module.exports = getCountryDetail;
