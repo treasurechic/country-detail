@@ -1,6 +1,6 @@
 {
   "name": "@treasurechic/country-detail",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This package works by receiving either the country name or ISO to return the detailed country details, including flag, currency and its symbol.",
   "main": "index.ts",
   "type": "module",
