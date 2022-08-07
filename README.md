@@ -20,7 +20,7 @@ getCountryDetail('Nigeria');
 
 ~~~
 
-# Data structure for the response is displayed below 👇️.
+## Data structure for the response is displayed below 👇️.
 ~~~js
 {
   iso2: string;
