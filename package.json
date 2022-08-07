@@ -1,8 +1,8 @@
 {
   "name": "@treasurechic/country-detail",
   "version": "1.0.0",
-  "description": "This package works by receiving either the country name or ISO2 or ISO3 to return the country details, including currency symbol and flag",
-  "main": "index.js",
+  "description": "This package works by receiving either the country name or ISO to return the detailed country details, including flag, currency and its symbol",
+  "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/treasurechic/country-detail/issues"
   },
-  "homepage": "https://github.com/treasurechic/country-detail#readme"
+  "homepage": "https://github.com/treasurechic/country-detail#readme",
+  "devDependencies": {
+    "@types/node": "^18.6.4"
+  }
 }
