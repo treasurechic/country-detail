@@ -1,4 +1,4 @@
-const countries = [
+export const countries = [
   {
     iso2: "AF",
     iso3: "AFG",
@@ -4116,5 +4116,3 @@ const countries = [
     dialCode: "+263",
   },
 ];
-
-module.exports = countries;

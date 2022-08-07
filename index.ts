@@ -1,5 +1,4 @@
-const countries = require('./countries')
-// import countries from "./countries";
+import { countries } from "./countries";
 
 interface countryDTO {
   iso2: string;
