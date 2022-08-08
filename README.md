@@ -12,7 +12,7 @@ yarn add @treasurechic/country-detail
 ~~~
 
 ~~~js
-import getCountryDetail from '@treasurechic/country-detail';
+import getCountryDetail from '@treasurechic/country-detail/lib';
 
 // You can get the country detail as on object by following either of the examples below 👇️
 
