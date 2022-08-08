@@ -2,9 +2,13 @@
 This package works by receiving either the country name or ISO to return the detailed country details, including flag, currency and its symbol.
 
 ### Installation
-The package can be installed via npm:
+The package can be installed via npm or yarn:
 ~~~sh
 npm i @treasurechic/country-detail
+~~~
+
+~~~sh
+yarn add @treasurechic/country-detail
 ~~~
 
 ~~~js
