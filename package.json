@@ -16,7 +16,12 @@
     "url": "git+https://github.com/treasurechic/country-detail.git"
   },
   "keywords": [
-    "country-detail"
+    "country",
+    "country-detail",
+    "country-information",
+    "country-flag",
+    "country-currency",
+    "country-ISO"
   ],
   "author": "TreasureChic",
   "license": "ISC",
