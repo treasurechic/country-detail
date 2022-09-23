@@ -1,25 +1,25 @@
 import { countries } from "./countries";
 
-interface countryDTO {
+type countryDTO = {
   iso2: string;
   iso3: string;
   latitude: number;
   longitude: number;
   name: string;
   currency: {
-      code: string;
-      name: string;
-      symbol: string;
+    code: string;
+    name: string;
+    symbol: string;
   };
   language: {
-      code: string;
-      name: string;
+    code: string;
+    name: string;
   };
   dialCode: string;
   flag: string;
 }
 
-const getCountryDetail = (value: string):countryDTO | {} => {
+const getCountryDetail = (value: string): countryDTO => {
   const cdnUrl =
     "https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/4.1.4/flags/4x3/";
 
@@ -34,5 +34,3 @@ const getCountryDetail = (value: string):countryDTO | {} => {
 };
 
 export default getCountryDetail;
-
-

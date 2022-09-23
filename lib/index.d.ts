@@ -1,4 +1,4 @@
-interface countryDTO {
+declare type countryDTO = {
     iso2: string;
     iso3: string;
     latitude: number;
@@ -15,6 +15,6 @@ interface countryDTO {
     };
     dialCode: string;
     flag: string;
-}
-declare const getCountryDetail: (value: string) => countryDTO | {};
+};
+declare const getCountryDetail: (value: string) => countryDTO;
 export default getCountryDetail;
